@@ -1,0 +1,39 @@
+div.header {
+    font-size: 1.2em;
+    text-align: center;
+    display: inline-block;
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+table {
+    background: lightgreen;
+    border: 3px double green;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+thead > tr > th {
+    border: 2px solid black;
+    border-bottom: 3px double green;
+}
+
+tbody > tr:nth-child(odd) {
+    background: lightyellow;
+}
+
+tr:hover td {
+    background: greenyellow;
+    scale: 1.1;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+}
