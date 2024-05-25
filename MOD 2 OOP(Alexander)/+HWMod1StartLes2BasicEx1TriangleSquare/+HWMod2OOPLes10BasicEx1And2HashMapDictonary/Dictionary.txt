@@ -1,0 +1,7 @@
+red:червоний
+orange:помаранчевий
+green:зелений
+blue:блакитний
+yellow:жовтий
+violet:фіолетовий
+darkblue:синій
